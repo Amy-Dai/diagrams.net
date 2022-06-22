@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T11:39:08.235Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="zqct7JEpm62_vFWHlndH" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-22T11:43:39.716Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="yG_dr6yDe5NldVOpl3aX" version="16.5.2" type="github">
   <diagram id="QVW4UTSSQXSNUTYh0it2" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,8 +81,8 @@
         <mxCell id="4cuIwtZsNtEL3UyNYzVH-21" value="③" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="540" y="1070" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4cuIwtZsNtEL3UyNYzVH-22" value="发送方、接收方间共享密钥&lt;br&gt;①&amp;nbsp;&lt;br&gt;②&lt;br&gt;③" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-          <mxGeometry x="80" y="720" width="520" height="100" as="geometry" />
+        <mxCell id="4cuIwtZsNtEL3UyNYzVH-22" value="发送方、接收方间共享密钥&lt;br&gt;① 使用MAC算法，输入密钥、原始消息，输出MAC&lt;br&gt;② 发送MAC、原始消息&lt;br&gt;③ 使用相同算法重新计算MAC后，与收到的MAC进行比较，相同则认为未被篡改。&lt;br&gt;&lt;br&gt;MAC实现方式：&lt;br&gt;1、单向散列函数（HMAC-SHA1、HMAC-SHA256）&lt;br&gt;2、分组密码算法（如AES-CBC）&lt;br&gt;3、流密码和公钥密码&lt;br&gt;&lt;br&gt;特点：&lt;br&gt;1、运算过程使用共享密钥，兼具完整性校验和真实性验证两重功能&lt;br&gt;2、无法保证消息的不可抵赖性。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="80" y="720" width="520" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
