@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T11:32:08.760Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="zZlPbs5uS8w53JOMRB5N" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-22T11:36:12.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="7OQTKiGpqZV4RxMS4WG9" version="16.5.2" type="github">
   <diagram id="QVW4UTSSQXSNUTYh0it2" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,7 +27,7 @@
         <mxCell id="4cuIwtZsNtEL3UyNYzVH-6" value="③" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="260" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4cuIwtZsNtEL3UyNYzVH-7" value="① 利用散列算法计算消息摘要后，利用&lt;b&gt;私钥&lt;/b&gt;对摘要进行加密生成消息签名&lt;br&gt;② 发送消息及消息签名&lt;br&gt;③ 使用发送方的&lt;b&gt;公钥&lt;/b&gt;解密签名后，利用相同散列算法计算消息摘要，并将计算后的消息摘要与收到的消息摘要进行比较，相同则认为消息未被篡改。&lt;br&gt;&lt;br&gt;&lt;br&gt;常见的数字签名算法：RSA、DSA、ECDSA" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+        <mxCell id="4cuIwtZsNtEL3UyNYzVH-7" value="① 利用散列算法计算消息摘要后，利用&lt;b&gt;私钥&lt;/b&gt;对摘要进行加密生成消息签名&lt;br&gt;② 发送消息及消息签名&lt;br&gt;③ 使用发送方的&lt;b&gt;公钥&lt;/b&gt;解密签名后，利用相同散列算法计算消息摘要，并将计算后的消息摘要与收到的消息摘要进行比较，相同则认为消息未被篡改。&lt;br&gt;&lt;br&gt;&lt;br&gt;常见的数字签名算法：RSA、DSA、ECDSA&lt;br&gt;&lt;br&gt;特点：&lt;br&gt;1、兼具完整性、真实性校验功能&lt;br&gt;2、因私钥的唯一性，能确保消息的不可抵赖性" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
           <mxGeometry x="80" y="370" width="520" height="150" as="geometry" />
         </mxCell>
         <mxCell id="4cuIwtZsNtEL3UyNYzVH-9" value="完整性保护技术之数字签名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
