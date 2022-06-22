@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T11:30:15.840Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="jFb-jFTK373fiIqkPFbd" version="16.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-22T11:30:50.526Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="QYteCb5EMToyVn17GhF3" version="16.5.2" type="github">
   <diagram id="QVW4UTSSQXSNUTYh0it2" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
           <mxGeometry x="450" y="260" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4cuIwtZsNtEL3UyNYzVH-7" value="① 利用散列算法计算消息摘要后，利用私钥对摘要进行加密生成消息签名&lt;br&gt;② 发送消息及消息签名&lt;br&gt;③ 使用发送方的公钥解密签名后，利用相同散列算法计算消息摘要，并将计算后的消息摘要与收到的消息摘要进行比较，相同则认为消息未被篡改。&lt;br&gt;&lt;br&gt;&lt;br&gt;常见的数字签名算法：RSA、DSA、ECDSA" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
-          <mxGeometry x="80" y="370" width="520" height="100" as="geometry" />
+          <mxGeometry x="80" y="370" width="520" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
