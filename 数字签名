@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-23T08:28:48.876Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="2mj6NCt_dOdnhBmZGNDc" version="20.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-23T08:29:21.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="E4649Umd_qTQWXjz0xNV" version="20.0.2" type="github" pages="3">
   <diagram id="QVW4UTSSQXSNUTYh0it2" name="完整性保护技术">
     <mxGraphModel dx="2062" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -172,8 +172,8 @@
         <mxCell id="w2Gv18SbNhxz-9TSOfS2-16" value="SYN-ACK" style="ellipse;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="270" y="440" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="w2Gv18SbNhxz-9TSOfS2-17" value="SYN-RCVD" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="470" y="690" width="120" height="60" as="geometry" />
+        <mxCell id="w2Gv18SbNhxz-9TSOfS2-17" value="FIN-WAIT" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w2Gv18SbNhxz-9TSOfS2-18" value="ESTABLISHED" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="480" y="620" width="120" height="60" as="geometry" />
