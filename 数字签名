@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T02:56:06.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="zHjld_qyd0k0chq_xHsN" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-05T10:48:10.183Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77" etag="nuAs--PHKgMbXm5F6LEm" version="20.2.3" type="github" pages="3">
   <diagram id="QVW4UTSSQXSNUTYh0it2" name="完整性保护技术">
     <mxGraphModel dx="2062" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -365,6 +365,20 @@
         </mxCell>
         <mxCell id="w2Gv18SbNhxz-9TSOfS2-70" value="TCP连接" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="280" y="140" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gl453pvk0pP9HYqk3hH8" name="SSL交互过程">
+    <mxGraphModel dx="2062" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G_fOiM0EhVyLO0U0jw7l-1" value="&lt;a href=&quot;https://www.cnblogs.com/coolYuan/p/8662859.html&quot;&gt;HTTPS协议，SSL协议及完整交互过程 - insistYuan - 博客园 (cnblogs.com)&lt;/a&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="190" width="430" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G_fOiM0EhVyLO0U0jw7l-2" value="&lt;a href=&quot;https://zhuanlan.zhihu.com/p/421446218&quot;&gt;SSL/TLS 1.2 握手交互过程 - 知乎 (zhihu.com)&lt;/a&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="280" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
