@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T10:48:10.183Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77" etag="nuAs--PHKgMbXm5F6LEm" version="20.2.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-01T11:53:30.177Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="7o7nbYevgqcNwXgnU7Lx" version="20.5.1" type="github" pages="4">
   <diagram id="QVW4UTSSQXSNUTYh0it2" name="完整性保护技术">
-    <mxGraphModel dx="2062" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,7 +103,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="adazIrkZpDQWL4HoJBo5" name="TCP三次握手、4次挥手">
-    <mxGraphModel dx="2062" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -370,15 +370,32 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gl453pvk0pP9HYqk3hH8" name="SSL交互过程">
-    <mxGraphModel dx="2062" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="G_fOiM0EhVyLO0U0jw7l-1" value="&lt;a href=&quot;https://www.cnblogs.com/coolYuan/p/8662859.html&quot;&gt;HTTPS协议，SSL协议及完整交互过程 - insistYuan - 博客园 (cnblogs.com)&lt;/a&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G_fOiM0EhVyLO0U0jw7l-1" value="&lt;a href=&quot;https://www.cnblogs.com/coolYuan/p/8662859.html&quot;&gt;HTTPS协议，SSL协议及完整交互过程 - insistYuan - 博客园 (cnblogs.com)&lt;/a&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="190" width="430" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="G_fOiM0EhVyLO0U0jw7l-2" value="&lt;a href=&quot;https://zhuanlan.zhihu.com/p/421446218&quot;&gt;SSL/TLS 1.2 握手交互过程 - 知乎 (zhihu.com)&lt;/a&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="G_fOiM0EhVyLO0U0jw7l-2" value="&lt;a href=&quot;https://zhuanlan.zhihu.com/p/421446218&quot;&gt;SSL/TLS 1.2 握手交互过程 - 知乎 (zhihu.com)&lt;/a&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="260" width="280" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yW1hp9dx1FhpnMav9aqi" name="数字签名原理">
+    <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V6kKQpZ0NFz2BRHTW6bl-1" value="小明" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V6kKQpZ0NFz2BRHTW6bl-2" value="小刚" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V6kKQpZ0NFz2BRHTW6bl-3" value="小刚：&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 明文内容xxx&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;小明" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
