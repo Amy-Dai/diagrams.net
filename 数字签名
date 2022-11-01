@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T12:12:30.547Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="2waWUYbR4GU3LQoe41X8" version="20.5.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-01T12:18:28.710Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="VDmuRtOgjyvP5kxMVpJN" version="20.5.1" type="github" pages="4">
   <diagram id="QVW4UTSSQXSNUTYh0it2" name="完整性保护技术">
     <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -480,6 +480,9 @@
         </mxCell>
         <mxCell id="S_IrPVeJBYc5NKJIRIy2-26" value="8、验签：比对“摘要A、摘要D是否相同”" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="685" y="250" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S_IrPVeJBYc5NKJIRIy2-29" value="&lt;div&gt;签名算法需要结合安全的哈希算法一起使用&lt;/div&gt;&lt;div&gt;只对来源可信的数据进行签名&lt;/div&gt;&lt;div&gt;在同时进行加密、签名的时，使用先签名后加密的方式&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="310" y="400" width="230" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
