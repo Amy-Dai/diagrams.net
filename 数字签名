@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T12:09:21.037Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3_zy3Mx7mactPSElot9T" version="20.5.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-01T12:09:45.173Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="kv0MGcZ1KEbsomiojP5Z" version="20.5.1" type="github" pages="4">
   <diagram id="QVW4UTSSQXSNUTYh0it2" name="完整性保护技术">
     <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -460,13 +460,13 @@
         <mxCell id="S_IrPVeJBYc5NKJIRIy2-16" value="&lt;span style=&quot;&quot;&gt;小刚：&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 明文内容xxx&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;小明&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="680" y="50" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="S_IrPVeJBYc5NKJIRIy2-18" value="5、使用小刚的私钥解密" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="S_IrPVeJBYc5NKJIRIy2-18" value="5、使用小刚的私钥解密" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="50" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S_IrPVeJBYc5NKJIRIy2-19" value="明文的摘要A" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="300" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="S_IrPVeJBYc5NKJIRIy2-21" value="7、使用小明的公钥解密" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="S_IrPVeJBYc5NKJIRIy2-21" value="7、使用小明的公钥解密" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="280" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="S_IrPVeJBYc5NKJIRIy2-22" value="明文的摘要D" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
