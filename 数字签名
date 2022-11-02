@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T02:46:47.520Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="HEA3vDpGLK-9wfeVJnf_" version="20.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-02T02:48:27.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="PqdGpS42HzLU3DnYqYls" version="20.5.1" type="github" pages="5">
   <diagram id="QVW4UTSSQXSNUTYh0it2" name="完整性保护技术">
     <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -498,7 +498,7 @@
         <mxCell id="ZNaMcJ9rsKh5VYOuTSec-2" value="数字信封采用密码技术保证只有规定的接收人才能阅读信息的内容" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="80" y="50" width="680" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-3" value="https://blog.51cto.com/liu008qing/2427211&lt;br&gt;&lt;br&gt;https://www.cnblogs.com/franson-2016/p/5520675.html" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-3" value="https://juejin.cn/post/7113913918350688287&lt;br&gt;&lt;br&gt;https://www.cnblogs.com/franson-2016/p/5520675.html" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="200" y="640" width="360" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZNaMcJ9rsKh5VYOuTSec-4" value="发送方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=#000000;" vertex="1" parent="1">
