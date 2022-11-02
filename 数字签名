@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T02:53:50.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="674hRZPYq0mBtWgIAQNF" version="20.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-02T03:03:31.915Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="AQYXQxik7NBkV6gxgQOx" version="20.5.1" type="github" pages="5">
   <diagram id="QVW4UTSSQXSNUTYh0it2" name="完整性保护技术">
     <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -483,6 +483,9 @@
         </mxCell>
         <mxCell id="S_IrPVeJBYc5NKJIRIy2-29" value="&lt;div&gt;1、签名算法需要结合安全的哈希算法一起使用&lt;/div&gt;&lt;div&gt;2、只对来源可信的数据进行签名&lt;/div&gt;&lt;div&gt;3、在同时进行加密、签名的时，使用先签名后加密的方式&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="220" y="400" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zIz0SlNM1j50Rt11_sRc-1" value="数字签名：用来表明数据发送方的身份，签名后可知数据由谁发出。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="520" width="560" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
