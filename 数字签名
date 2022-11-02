@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T02:22:10.186Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="EfSoWFH_cB2Se6d2ubqT" version="20.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-02T02:23:14.388Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="iFoP7YAPghyMBbTS6TJc" version="20.5.1" type="github" pages="5">
   <diagram id="QVW4UTSSQXSNUTYh0it2" name="完整性保护技术">
     <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -500,6 +500,12 @@
         </mxCell>
         <mxCell id="ZNaMcJ9rsKh5VYOuTSec-3" value="https://blog.51cto.com/liu008qing/2427211&lt;br&gt;&lt;br&gt;https://www.cnblogs.com/franson-2016/p/5520675.html" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="200" y="640" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-4" value="发送方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="440" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-5" value="接收方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="550" y="440" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
