@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T02:37:52.266Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="2G47C_W_tttMmgl88UGH" version="20.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-02T02:43:31.460Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="oaGrQ3YZ83xsrV6B335n" version="20.5.1" type="github" pages="5">
   <diagram id="QVW4UTSSQXSNUTYh0it2" name="完整性保护技术">
     <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -514,7 +514,7 @@
           <mxGeometry x="20" y="90" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZNaMcJ9rsKh5VYOuTSec-11" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;2、使用“对称加密算法”、“对称密钥A”对需要发送的明文B加密&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="220" y="120" width="190" height="30" as="geometry" />
+          <mxGeometry x="210" y="120" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZNaMcJ9rsKh5VYOuTSec-14" value="3、使用接收方的公钥对“对称密钥A”仅加密" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="120" y="240" width="120" height="30" as="geometry" />
@@ -550,11 +550,29 @@
         <mxCell id="ZNaMcJ9rsKh5VYOuTSec-20" value="明文B的密文C" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="490" y="190" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="ZNaMcJ9rsKh5VYOuTSec-21" target="ZNaMcJ9rsKh5VYOuTSec-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZNaMcJ9rsKh5VYOuTSec-21" value="对称密钥A的密文D" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="490" y="260" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZNaMcJ9rsKh5VYOuTSec-22" value="4、网络传输" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="390" y="200" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZNaMcJ9rsKh5VYOuTSec-20" target="ZNaMcJ9rsKh5VYOuTSec-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-23" value="对称密钥A" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="180" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-25" value="5、使用“接收方的私钥”对“对称密钥A的密文D”进行解密" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="620" y="220" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-26" value="需要发送的明文B" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="680" y="100" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-28" value="6、使用“对称密钥A”对“密文C”进行解密" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="70" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
