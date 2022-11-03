@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T03:03:31.915Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="AQYXQxik7NBkV6gxgQOx" version="20.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-03T01:49:16.133Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="GI4L7eXKVFHGi9gO_xVq" version="20.5.1" type="github" pages="5">
   <diagram id="QVW4UTSSQXSNUTYh0it2" name="完整性保护技术">
     <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -484,8 +484,8 @@
         <mxCell id="S_IrPVeJBYc5NKJIRIy2-29" value="&lt;div&gt;1、签名算法需要结合安全的哈希算法一起使用&lt;/div&gt;&lt;div&gt;2、只对来源可信的数据进行签名&lt;/div&gt;&lt;div&gt;3、在同时进行加密、签名的时，使用先签名后加密的方式&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="220" y="400" width="380" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zIz0SlNM1j50Rt11_sRc-1" value="数字签名：用来表明数据发送方的身份，签名后可知数据由谁发出。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="160" y="520" width="560" height="30" as="geometry" />
+        <mxCell id="zIz0SlNM1j50Rt11_sRc-1" value="数字签名：用来表明数据发送方的身份，签名后可知数据由谁发出。&lt;br&gt;&lt;br&gt;存在问题：接收方存储的发送方公钥伪造问题" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="500" width="760" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -566,13 +566,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZNaMcJ9rsKh5VYOuTSec-23" value="对称密钥A" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="680" y="180" width="100" height="30" as="geometry" />
+          <mxGeometry x="700" y="180" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZNaMcJ9rsKh5VYOuTSec-25" value="5、使用“接收方的私钥”&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;对“对称密钥A的密文D”进行解密&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="620" y="220" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZNaMcJ9rsKh5VYOuTSec-26" value="需要发送的明文B" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="680" y="110" width="100" height="30" as="geometry" />
+          <mxGeometry x="700" y="110" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZNaMcJ9rsKh5VYOuTSec-28" value="6、使用“对称密钥A”对“密文C”进行解密" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="560" y="85" width="110" height="40" as="geometry" />
