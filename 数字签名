@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T01:49:16.133Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="GI4L7eXKVFHGi9gO_xVq" version="20.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-03T06:13:25.232Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="hgua0-xFPaqJ-SQnXSrJ" version="20.5.1" type="github" pages="5">
   <diagram id="QVW4UTSSQXSNUTYh0it2" name="完整性保护技术">
     <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -501,8 +501,8 @@
         <mxCell id="ZNaMcJ9rsKh5VYOuTSec-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="20" y="50" width="790" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-3" value="https://juejin.cn/post/7113913918350688287&lt;br&gt;&lt;br&gt;https://www.cnblogs.com/franson-2016/p/5520675.html" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="200" y="640" width="360" height="80" as="geometry" />
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-3" value="【推荐】https://blog.csdn.net/qq_34115899/article/details/108561018&lt;br&gt;&lt;br&gt;https://juejin.cn/post/7113913918350688287&lt;br&gt;&lt;br&gt;https://www.cnblogs.com/franson-2016/p/5520675.html" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="640" width="410" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ZNaMcJ9rsKh5VYOuTSec-4" value="发送方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="190" y="330" width="30" height="60" as="geometry" />
