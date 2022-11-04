@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T06:13:25.232Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="hgua0-xFPaqJ-SQnXSrJ" version="20.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-04T03:32:10.989Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="gc3WMfty5NbPBMvtHnzt" version="20.5.1" type="github" pages="6">
   <diagram id="QVW4UTSSQXSNUTYh0it2" name="完整性保护技术">
     <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -495,90 +495,118 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="10" y="40" width="810" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="20" y="50" width="790" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-3" value="【推荐】https://blog.csdn.net/qq_34115899/article/details/108561018&lt;br&gt;&lt;br&gt;https://juejin.cn/post/7113913918350688287&lt;br&gt;&lt;br&gt;https://www.cnblogs.com/franson-2016/p/5520675.html" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-3" value="【推荐】https://blog.csdn.net/qq_34115899/article/details/108561018&lt;br&gt;&lt;br&gt;https://juejin.cn/post/7113913918350688287&lt;br&gt;&lt;br&gt;https://www.cnblogs.com/franson-2016/p/5520675.html" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="150" y="640" width="410" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-4" value="发送方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-4" value="发送方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="190" y="330" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-5" value="接收方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-5" value="接收方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="620" y="330" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-6" value="1、生成一个&lt;b&gt;共享的对称密钥A&lt;/b&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-6" value="1、生成一个&lt;b&gt;共享的对称密钥A&lt;/b&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="30" y="130" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-7" value="需要发送的明文B" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-7" value="需要发送的明文B" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="30" y="90" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-11" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;2、使用“对称加密算法”、“对称密钥A”&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;对需要发送的明文B加密&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-11" value="&lt;span style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;2、使用“对称加密算法”、“对称密钥A”&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;对需要发送的明文B加密&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="210" y="120" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-14" value="3、使用接收方的公钥对“&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;对称密钥A”进行加密&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-14" value="3、使用接收方的公钥对“&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;对称密钥A”进行加密&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="120" y="230" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="220" y="170" width="170" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-8" value="明文B的密文C" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-8" value="明文B的密文C" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="245" y="190" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-12" value="对称密钥A的密文D" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-12" value="对称密钥A的密文D" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="245" y="260" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZNaMcJ9rsKh5VYOuTSec-6" target="ZNaMcJ9rsKh5VYOuTSec-12">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZNaMcJ9rsKh5VYOuTSec-6" target="ZNaMcJ9rsKh5VYOuTSec-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="115" y="275" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="ZNaMcJ9rsKh5VYOuTSec-6" target="ZNaMcJ9rsKh5VYOuTSec-8">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="ZNaMcJ9rsKh5VYOuTSec-6" target="ZNaMcJ9rsKh5VYOuTSec-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZNaMcJ9rsKh5VYOuTSec-16" target="ZNaMcJ9rsKh5VYOuTSec-18">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-17" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZNaMcJ9rsKh5VYOuTSec-16" target="ZNaMcJ9rsKh5VYOuTSec-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="260" as="sourcePoint" />
             <mxPoint x="490" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="480" y="170" width="140" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-20" value="明文B的密文C" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-20" value="明文B的密文C" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="490" y="190" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="ZNaMcJ9rsKh5VYOuTSec-21" target="ZNaMcJ9rsKh5VYOuTSec-23">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="ZNaMcJ9rsKh5VYOuTSec-21" target="ZNaMcJ9rsKh5VYOuTSec-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-21" value="对称密钥A的密文D" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-21" value="对称密钥A的密文D" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="490" y="260" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-22" value="4、网络传输" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-22" value="4、网络传输" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="390" y="200" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZNaMcJ9rsKh5VYOuTSec-20" target="ZNaMcJ9rsKh5VYOuTSec-26">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZNaMcJ9rsKh5VYOuTSec-20" target="ZNaMcJ9rsKh5VYOuTSec-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-23" value="对称密钥A" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-23" value="对称密钥A" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="700" y="180" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-25" value="5、使用“接收方的私钥”&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;对“对称密钥A的密文D”进行解密&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-25" value="5、使用“接收方的私钥”&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;对“对称密钥A的密文D”进行解密&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="620" y="220" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-26" value="需要发送的明文B" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-26" value="需要发送的明文B" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="700" y="110" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-28" value="6、使用“对称密钥A”对“密文C”进行解密" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-28" value="6、使用“对称密钥A”对“密文C”进行解密" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="560" y="85" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-2" value="数字信封采用密码技术保证只有规定的接收人才能阅读信息的内容" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="ZNaMcJ9rsKh5VYOuTSec-2" value="数字信封采用密码技术保证只有规定的接收人才能阅读信息的内容" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="20" y="50" width="790" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wHBc4DPy4CXkeorxpJ-x" name="Diffie-Hellman算法">
+    <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rp3rEIEuxeYTC7CDeFkz-1" value="Alice" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="rp3rEIEuxeYTC7CDeFkz-2" value="Bob" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="rp3rEIEuxeYTC7CDeFkz-3" value="p,g" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="100" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rp3rEIEuxeYTC7CDeFkz-4" value="p,g" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="100" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rp3rEIEuxeYTC7CDeFkz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rp3rEIEuxeYTC7CDeFkz-1" target="rp3rEIEuxeYTC7CDeFkz-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rp3rEIEuxeYTC7CDeFkz-6" value="产生随机数a作为&lt;font color=&quot;#ff0000&quot;&gt;私钥a&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rp3rEIEuxeYTC7CDeFkz-5">
+          <mxGeometry x="0.318" relative="1" as="geometry">
+            <mxPoint x="26" y="-10" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
