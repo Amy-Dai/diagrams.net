@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T06:37:18.311Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="sBWBHncAez9HECeYy2QQ" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-04T06:37:54.697Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="01YuWM9UzAYPZtcgEl-u" version="20.5.1" type="github" pages="6">
   <diagram id="QVW4UTSSQXSNUTYh0it2" name="完整性保护技术">
     <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -588,6 +588,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rp3rEIEuxeYTC7CDeFkz-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="110" y="30" width="430" height="400" as="geometry" />
+        </mxCell>
         <mxCell id="rp3rEIEuxeYTC7CDeFkz-1" value="Alice" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="40" width="100" height="380" as="geometry" />
         </mxCell>
