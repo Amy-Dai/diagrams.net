@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T06:41:04.125Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Tz4-YQRPXU4OQXVvu4PU" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-04T06:42:55.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="XI46bCSLKyDKMsQh2s52" version="20.5.1" type="github" pages="6">
   <diagram id="QVW4UTSSQXSNUTYh0it2" name="完整性保护技术">
     <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -673,9 +673,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="305" y="350" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="rp3rEIEuxeYTC7CDeFkz-36" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="380" y="370" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rp3rEIEuxeYTC7CDeFkz-37" value="&lt;div style=&quot;margin-top: 4.32pt; margin-bottom: 0pt; margin-left: 0.25in; text-indent: -0.25in; direction: ltr; unicode-bidi: embed; vertical-align: baseline; font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(1)&lt;/span&gt;&lt;span style=&quot;font-size: 10px; font-family: Arial;&quot;&gt;Alice&lt;/span&gt;&lt;span style=&quot;font-size: 10px; font-family: 宋体;&quot;&gt;和&lt;/span&gt;&lt;span style=&quot;font-size: 10px; font-family: Arial;&quot;&gt;Bob&lt;/span&gt;&lt;span style=&quot;font-size: 10px; font-family: 宋体;&quot;&gt;分别计算右图上的&lt;/span&gt;&lt;span style=&quot;font-size: 10px; font-family: Arial;&quot;&gt;K&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;margin-top: 4.32pt; margin-bottom: 0pt; margin-left: 0.25in; text-indent: -0.25in; direction: ltr; unicode-bidi: embed; vertical-align: baseline; font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;(2)&lt;/span&gt;&lt;span style=&quot;font-size: 10px; font-family: 宋体;&quot;&gt;分别计算出的两个&lt;/span&gt;&lt;span style=&quot;font-size: 10px; font-family: Arial;&quot;&gt;K&lt;/span&gt;&lt;span style=&quot;font-size: 10px; font-family: 宋体;&quot;&gt;是相同的，&lt;/span&gt;&lt;span style=&quot;font-size: 10px; font-family: Arial;&quot;&gt;K&lt;/span&gt;&lt;span style=&quot;font-size: 10px; font-family: 宋体;&quot;&gt;就是他们协商出的密钥&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="130" y="430" width="390" height="60" as="geometry" />
