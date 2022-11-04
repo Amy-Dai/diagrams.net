@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T03:32:10.989Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="gc3WMfty5NbPBMvtHnzt" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-04T06:08:44.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Hz19vF8goUmFzAGEDLXd" version="20.5.1" type="github" pages="6">
   <diagram id="QVW4UTSSQXSNUTYh0it2" name="完整性保护技术">
     <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -584,28 +584,55 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wHBc4DPy4CXkeorxpJ-x" name="Diffie-Hellman算法">
-    <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rp3rEIEuxeYTC7CDeFkz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="1" source="rp3rEIEuxeYTC7CDeFkz-1" target="rp3rEIEuxeYTC7CDeFkz-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="450" />
+              <mxPoint x="270" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="rp3rEIEuxeYTC7CDeFkz-1" value="Alice" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="40" width="100" height="300" as="geometry" />
+          <mxGeometry x="120" y="40" width="100" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="rp3rEIEuxeYTC7CDeFkz-2" value="Bob" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="40" width="100" height="300" as="geometry" />
+        <mxCell id="rp3rEIEuxeYTC7CDeFkz-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#000000;" vertex="1" parent="rp3rEIEuxeYTC7CDeFkz-1">
+          <mxGeometry x="45" y="90" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rp3rEIEuxeYTC7CDeFkz-3" value="p,g" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="115" y="100" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="rp3rEIEuxeYTC7CDeFkz-4" value="p,g" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="435" y="100" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="rp3rEIEuxeYTC7CDeFkz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rp3rEIEuxeYTC7CDeFkz-1" target="rp3rEIEuxeYTC7CDeFkz-1">
+        <mxCell id="rp3rEIEuxeYTC7CDeFkz-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="rp3rEIEuxeYTC7CDeFkz-1" source="rp3rEIEuxeYTC7CDeFkz-12" target="rp3rEIEuxeYTC7CDeFkz-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rp3rEIEuxeYTC7CDeFkz-6" value="产生随机数a作为&lt;font color=&quot;#ff0000&quot;&gt;私钥a&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rp3rEIEuxeYTC7CDeFkz-5">
-          <mxGeometry x="0.318" relative="1" as="geometry">
-            <mxPoint x="26" y="-10" as="offset" />
+        <mxCell id="rp3rEIEuxeYTC7CDeFkz-18" value="生成p, g" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="rp3rEIEuxeYTC7CDeFkz-17">
+          <mxGeometry x="-0.4533" relative="1" as="geometry">
+            <mxPoint x="9" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp3rEIEuxeYTC7CDeFkz-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#000000;" vertex="1" parent="rp3rEIEuxeYTC7CDeFkz-1">
+          <mxGeometry x="45" y="150" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rp3rEIEuxeYTC7CDeFkz-21" value="产生随机数a作为私钥a" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="rp3rEIEuxeYTC7CDeFkz-1" source="rp3rEIEuxeYTC7CDeFkz-19" target="rp3rEIEuxeYTC7CDeFkz-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rp3rEIEuxeYTC7CDeFkz-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#000000;" vertex="1" parent="rp3rEIEuxeYTC7CDeFkz-1">
+          <mxGeometry x="45" y="210" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rp3rEIEuxeYTC7CDeFkz-2" value="Bob" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="rp3rEIEuxeYTC7CDeFkz-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#000000;" vertex="1" parent="rp3rEIEuxeYTC7CDeFkz-2">
+          <mxGeometry x="45" y="90" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rp3rEIEuxeYTC7CDeFkz-16" value="生成p, g" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="rp3rEIEuxeYTC7CDeFkz-2" source="rp3rEIEuxeYTC7CDeFkz-14" target="rp3rEIEuxeYTC7CDeFkz-14">
+          <mxGeometry x="-0.3333" y="11" relative="1" as="geometry">
+            <mxPoint x="-6" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rp3rEIEuxeYTC7CDeFkz-23" value="&lt;font color=&quot;#ff0000&quot;&gt;X公钥传输&lt;/font&gt;&lt;br&gt;X=g^a mod p" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;fontColor=#000000;exitX=1.38;exitY=0.473;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="rp3rEIEuxeYTC7CDeFkz-2" parent="1" source="rp3rEIEuxeYTC7CDeFkz-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="250" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
