@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T06:42:55.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="XI46bCSLKyDKMsQh2s52" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-16T07:04:16.312Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="UmY-_XnW_8aNCER60lMm" version="20.5.3" type="github" pages="6">
   <diagram id="QVW4UTSSQXSNUTYh0it2" name="完整性保护技术">
-    <mxGraphModel dx="1550" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1550" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -98,6 +98,74 @@
         </mxCell>
         <mxCell id="4cuIwtZsNtEL3UyNYzVH-29" value="完整性保护技术之消息摘要" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="50" y="1120" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1520" width="640" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-2" value="发送方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="795" y="1780" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-3" value="接收方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1780" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1550" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="r0Wp1shlzJcTn0U9Qerx-4" target="r0Wp1shlzJcTn0U9Qerx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-4" value="原始消息M" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1560" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-5" value="原始消息M" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1560" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r0Wp1shlzJcTn0U9Qerx-7" target="r0Wp1shlzJcTn0U9Qerx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-7" value="MAC算法、&lt;br&gt;共享密钥K" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1670" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="r0Wp1shlzJcTn0U9Qerx-8" target="r0Wp1shlzJcTn0U9Qerx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-8" value="MAC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1670" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-9" value="MAC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1620" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-17" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="1550" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r0Wp1shlzJcTn0U9Qerx-18" target="r0Wp1shlzJcTn0U9Qerx-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-18" value="原始消息M" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="1560" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="r0Wp1shlzJcTn0U9Qerx-20" target="r0Wp1shlzJcTn0U9Qerx-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-20" value="MAC算法、&lt;br&gt;共享密钥K" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1121" y="1575" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="r0Wp1shlzJcTn0U9Qerx-22" target="r0Wp1shlzJcTn0U9Qerx-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="1680" />
+              <mxPoint x="1216" y="1680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-22" value="MAC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="1620" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-27" value="MAC&#39;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1191" y="1620" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-30" value="Equal?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="1650" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
