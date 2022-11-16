@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T09:11:00.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="bjGvpHlFWHmpHK1P6ocO" version="20.5.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-16T09:11:43.082Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="WDbNoWxmMRuF8eLerZm0" version="20.5.3" type="github" pages="6">
   <diagram id="QVW4UTSSQXSNUTYh0it2" name="完整性保护技术">
     <mxGraphModel dx="1550" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -218,7 +218,7 @@
         <mxCell id="r0Wp1shlzJcTn0U9Qerx-42" value="Transmit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1480" y="1530" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="r0Wp1shlzJcTn0U9Qerx-45" value="①" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="r0Wp1shlzJcTn0U9Qerx-45" value="①" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;fontStyle=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="1560" y="1520" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r0Wp1shlzJcTn0U9Qerx-46" value="✘" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#FF0000;fontSize=80;" vertex="1" parent="1">
