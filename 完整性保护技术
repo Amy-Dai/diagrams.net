@@ -1,1 +1,293 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T09:36:06.921Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.5.3" etag="HbO6ESK8Of4RHTnT1SCL" type="github"><diagram id="S8QZgrU74yFdH6FV7Wk5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-16T09:36:51.103Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="meOMNU9zu2I0M8caNXfB" version="20.5.3" type="github">
+  <diagram id="S8QZgrU74yFdH6FV7Wk5" name="第 1 页">
+    <mxGraphModel dx="1550" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1510" width="1180" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1120" width="600" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1520" width="570" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1920" width="600" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cxEePMEGY1cGEk-TLI4t-7" target="cxEePMEGY1cGEk-TLI4t-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-6" value="②" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cxEePMEGY1cGEk-TLI4t-5">
+          <mxGeometry x="0.336" y="2" relative="1" as="geometry">
+            <mxPoint x="-37" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-7" value="发送方" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-8" value="接收方" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="2000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-9" value="①" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="2030" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-10" value="③" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="2030" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-11" value="① 利用散列算法计算消息摘要后，利用&lt;b&gt;私钥&lt;/b&gt;对摘要进行加密生成消息签名&lt;br&gt;② 发送消息及消息签名&lt;br&gt;③ 使用发送方的&lt;b&gt;公钥&lt;/b&gt;解密签名后，利用相同散列算法计算消息摘要，并将计算后的消息摘要与收到的消息摘要进行比较，相同则认为消息未被篡改。&lt;br&gt;&lt;br&gt;&lt;br&gt;常见的数字签名算法：RSA、DSA、ECDSA&lt;br&gt;&lt;br&gt;特点：&lt;br&gt;1、兼具完整性、真实性校验功能&lt;br&gt;2、因私钥的唯一性，能确保消息的不可抵赖性" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2090" width="520" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-12" value="完整性保护技术之数字签名" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1920" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-13" value="②" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="340" y="1620" as="geometry">
+            <mxPoint x="-6" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cxEePMEGY1cGEk-TLI4t-17" target="cxEePMEGY1cGEk-TLI4t-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="cxEePMEGY1cGEk-TLI4t-17" target="cxEePMEGY1cGEk-TLI4t-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-16" value="共享密钥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cxEePMEGY1cGEk-TLI4t-15">
+          <mxGeometry x="0.3171" relative="1" as="geometry">
+            <mxPoint x="-70" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-17" value="发送方" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-18" value="接收方" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-19" value="①" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1620" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-20" value="③" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1620" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-21" value="②" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="340" y="1220" as="geometry">
+            <mxPoint x="-6" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cxEePMEGY1cGEk-TLI4t-23" target="cxEePMEGY1cGEk-TLI4t-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-23" value="发送方" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-24" value="接收方" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-25" value="①" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1220" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-26" value="③" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1220" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-27" value="发送方、接收方间共享密钥&lt;br&gt;① 使用MAC算法，输入密钥、原始消息，输出MAC&lt;br&gt;② 发送MAC、原始消息&lt;br&gt;③ 使用相同算法重新计算MAC后，与收到的MAC进行比较，相同则认为未被篡改。&lt;br&gt;&lt;br&gt;MAC实现方式：&lt;br&gt;1、单向散列函数（HMAC-SHA1、HMAC-SHA256）&lt;br&gt;2、分组密码算法（如AES-CBC）&lt;br&gt;3、流密码和公钥密码&lt;br&gt;&lt;br&gt;特点：&lt;br&gt;1、运算过程使用共享密钥，兼具完整性校验和真实性验证两重功能&lt;br&gt;2、&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;无法保证消息的不可抵赖性&lt;/font&gt;&lt;/b&gt;。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1670" width="520" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-28" value="完整性保护技术之消息认证码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1520" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-29" value="① 利用单向散列函数（如SHA2-256）计算原始消息的一段固定长度的摘要（也称指纹）。&lt;br&gt;② 发送摘要、原始消息&lt;br&gt;③ 利用相同散列函数重新计算消息摘要后，与收到的摘要比较，相同则认为消息未被篡改。&lt;br&gt;&lt;br&gt;程序的签名，静态/动态度量也是利用程序摘要（如SHA2-256）来支持完整性的度量。&lt;br&gt;&lt;br&gt;特点：&lt;br&gt;1、安全性取决于单向散列函数的抗碰撞性&lt;br&gt;2、运算过程无需输入密钥，故仅能验证消息完整性，&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;不能验证消息的真实性，不能防止非法篡改&lt;/font&gt;&lt;/b&gt;&lt;br&gt;3、程序摘要只能保证非人为因素篡改，要防止所有篡改，还需增加签名保护。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1270" width="520" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-30" value="完整性保护技术之消息摘要" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1120" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1520" width="580" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-32" value="发送方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="745" y="1780" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-33" value="接收方" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1780" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-34" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1550" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cxEePMEGY1cGEk-TLI4t-36" target="cxEePMEGY1cGEk-TLI4t-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-36" value="原始消息M" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1560" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-37" value="原始消息M" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1560" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cxEePMEGY1cGEk-TLI4t-39" target="cxEePMEGY1cGEk-TLI4t-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-39" value="MAC算法、&lt;br&gt;共享密钥K" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1670" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cxEePMEGY1cGEk-TLI4t-41" target="cxEePMEGY1cGEk-TLI4t-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-41" value="MAC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1670" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-42" value="MAC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1620" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-43" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="955" y="1550" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cxEePMEGY1cGEk-TLI4t-45" target="cxEePMEGY1cGEk-TLI4t-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-45" value="原始消息M" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="965" y="1560" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cxEePMEGY1cGEk-TLI4t-47" target="cxEePMEGY1cGEk-TLI4t-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-47" value="MAC算法、&lt;br&gt;共享密钥K" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1071" y="1575" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="cxEePMEGY1cGEk-TLI4t-49" target="cxEePMEGY1cGEk-TLI4t-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="1680" />
+              <mxPoint x="1166" y="1680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-49" value="MAC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="965" y="1620" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-50" value="MAC&#39;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1141" y="1620" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-51" value="Equal?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="1650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-52" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#FF0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cxEePMEGY1cGEk-TLI4t-34" target="cxEePMEGY1cGEk-TLI4t-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="1760" as="sourcePoint" />
+            <mxPoint x="940" y="1710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-53" value="发送" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1590" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-54" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="1510" width="330" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="cxEePMEGY1cGEk-TLI4t-57" target="cxEePMEGY1cGEk-TLI4t-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;endArrow=classic;endFill=1;exitX=0.576;exitY=0.875;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cxEePMEGY1cGEk-TLI4t-57" target="cxEePMEGY1cGEk-TLI4t-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1319" y="1598" />
+              <mxPoint x="1460" y="1598" />
+              <mxPoint x="1460" y="1575" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-57" value="Data" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="1540" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="cxEePMEGY1cGEk-TLI4t-59" target="cxEePMEGY1cGEk-TLI4t-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-59" value="hash" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1540" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-60" value="SHA256" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="1530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-61" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="1530" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-62" value="hash" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1485" y="1560" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-63" value="Data" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1485" y="1585" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-64" value="Transmit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="1530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-65" value="①" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="1520" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-66" value="✘" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#FF0000;fontSize=80;" vertex="1" parent="1">
+          <mxGeometry x="1545" y="1560" width="55" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-67" value="&lt;font color=&quot;#ff0000&quot;&gt;错误的数据完整性的保证方案&lt;/font&gt;：&lt;br&gt;攻击者可以同时替换（也就是篡改）数据和Hash值，接收方无法得知数据已经被篡改。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1640" width="310" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-68" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="1730" width="330" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cxEePMEGY1cGEk-TLI4t-71" target="cxEePMEGY1cGEk-TLI4t-73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340" y="1810" />
+              <mxPoint x="1370" y="1810" />
+              <mxPoint x="1370" y="1790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;endArrow=classic;endFill=1;exitX=0.576;exitY=0.875;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cxEePMEGY1cGEk-TLI4t-71" target="cxEePMEGY1cGEk-TLI4t-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1319" y="1840" />
+              <mxPoint x="1460" y="1840" />
+              <mxPoint x="1460" y="1795" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-71" value="Data" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="1800" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="cxEePMEGY1cGEk-TLI4t-73" target="cxEePMEGY1cGEk-TLI4t-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-73" value="MAC" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1770" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-74" value="HMAC-SHA256" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="1738.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-75" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="1750" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-76" value="MAC" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1485" y="1780" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-77" value="Data" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1485" y="1805" width="50" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-78" value="Transmit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="1750" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-79" value="①" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="1740" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-80" value="✔" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#FF0000;fontSize=80;" vertex="1" parent="1">
+          <mxGeometry x="1545" y="1780" width="55" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-81" value="&lt;font color=&quot;#ff0000&quot;&gt;错误的数据完整性的保证方案&lt;/font&gt;：&lt;br&gt;攻击者可以同时替换（也就是篡改）数据和Hash值，接收方无法得知数据已经被篡改。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1860" width="310" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="cxEePMEGY1cGEk-TLI4t-83" target="cxEePMEGY1cGEk-TLI4t-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-83" value="Key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1755" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
