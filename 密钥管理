@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-17T03:17:33.703Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Nxbd9yOO1Fkq-eYVhexu" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-17T03:17:48.985Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="W_yPwwEDiwFPXhnH4THF" version="20.5.3" type="github">
   <diagram id="msBvAdVL5ZYnSMTj56G0" name="第 1 页">
     <mxGraphModel dx="1550" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,7 +88,7 @@
         <mxCell id="B9FNWueXfUyLddU4yfU9-31" value="两层密钥管理结构&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;没有中间层的密钥加密密钥，直接使用根密钥加密保护工作密钥&lt;/b&gt;&lt;/font&gt;。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="40" y="470" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B9FNWueXfUyLddU4yfU9-32" value="&lt;ul&gt;&lt;li&gt;密钥的安全管理通常采用层次化的保护方式。&lt;/li&gt;&lt;li&gt;密钥分层管理结构有助于减少根密钥的使用频率从而更有效地保护根密钥。&lt;/li&gt;&lt;li&gt;层数的选择取决于产品所涉及的加密应用场景的复杂度。&lt;/li&gt;&lt;ol&gt;&lt;li&gt;工作密钥数量庞大，需要频繁更新或应用系统结构复杂各子系统功能相对独立切有不同的密钥的场景建议选择三层密钥。&lt;/li&gt;&lt;li&gt;应用场景单一，工作密钥较少且更新不频繁的场景，可选用两层密钥管理结构。&lt;/li&gt;&lt;li&gt;仅有少量密钥，且都存储在硬件安全模块的场景可不强制要求使用多层密钥管理。&lt;/li&gt;&lt;/ol&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="B9FNWueXfUyLddU4yfU9-32" value="&lt;ul&gt;&lt;li&gt;密钥的安全管理通常采用层次化的保护方式。&lt;/li&gt;&lt;li&gt;密钥分层管理结构有助于减少根密钥的使用频率从而更有效地保护根密钥。&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;层数的选择取决于产品所涉及的加密应用场景的复杂度&lt;/b&gt;&lt;/font&gt;。&lt;/li&gt;&lt;ol&gt;&lt;li&gt;工作密钥数量庞大，需要频繁更新或应用系统结构复杂各子系统功能相对独立切有不同的密钥的场景建议选择三层密钥。&lt;/li&gt;&lt;li&gt;应用场景单一，工作密钥较少且更新不频繁的场景，可选用两层密钥管理结构。&lt;/li&gt;&lt;li&gt;仅有少量密钥，且都存储在硬件安全模块的场景可不强制要求使用多层密钥管理。&lt;/li&gt;&lt;/ol&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="40" y="540" width="480" height="150" as="geometry" />
         </mxCell>
       </root>
