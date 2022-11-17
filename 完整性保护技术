@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-17T01:58:15.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Mg7R6Hfz9LYCon1TvvRl" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-17T01:58:30.568Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ynxQi639d2n2w9JJgZCU" version="20.5.3" type="github">
   <diagram id="S8QZgrU74yFdH6FV7Wk5" name="消息认证码、数字签名">
     <mxGraphModel dx="1550" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -278,7 +278,7 @@
         <mxCell id="cxEePMEGY1cGEk-TLI4t-80" value="✔" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#FF0000;fontSize=80;" vertex="1" parent="1">
           <mxGeometry x="1545" y="1780" width="55" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="cxEePMEGY1cGEk-TLI4t-81" value="&lt;font color=&quot;#ff0000&quot;&gt;一种正确的数据完整性的保护方案：&lt;/font&gt;&lt;br&gt;这个方案里消息不需要加密，以明文的形式传输，消息通过HMAC计算确保完整性。攻击者无法获得计算HMAC所需的密钥，在篡改数据后无法生成合法的HMAC值，强行篡改后，在接收方会被立即识别。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-81" value="&lt;font color=&quot;#ff0000&quot;&gt;一种正确的数据完整性的保护方案&lt;/font&gt;：&lt;br&gt;这个方案里消息不需要加密，以明文的形式传输，消息通过HMAC计算确保完整性。攻击者无法获得计算HMAC所需的密钥，在篡改数据后无法生成合法的HMAC值，强行篡改后，在接收方会被立即识别。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1280" y="1860" width="310" height="70" as="geometry" />
         </mxCell>
         <mxCell id="cxEePMEGY1cGEk-TLI4t-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;fontColor=#000000;endArrow=classic;endFill=1;" edge="1" parent="1" source="cxEePMEGY1cGEk-TLI4t-83" target="cxEePMEGY1cGEk-TLI4t-73">
