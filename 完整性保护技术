@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-17T01:58:30.568Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ynxQi639d2n2w9JJgZCU" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-17T01:58:41.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="gd7xQdAsih6HqIFfOyq2" version="20.5.3" type="github">
   <diagram id="S8QZgrU74yFdH6FV7Wk5" name="消息认证码、数字签名">
     <mxGraphModel dx="1550" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -272,7 +272,7 @@
         <mxCell id="cxEePMEGY1cGEk-TLI4t-78" value="Transmit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1480" y="1750" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cxEePMEGY1cGEk-TLI4t-79" value="①" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="cxEePMEGY1cGEk-TLI4t-79" value="②" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#000000;fontStyle=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="1560" y="1740" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cxEePMEGY1cGEk-TLI4t-80" value="✔" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#FF0000;fontSize=80;" vertex="1" parent="1">
