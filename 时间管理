@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T08:28:45.394Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="kIrkP9acScNrNNJAoL2F" version="20.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-18T08:30:21.544Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="cR7ZTA4tJGJnAC-SNi3t" version="20.5.3" type="github" pages="2">
   <diagram id="zufRls0miDgLk5DCoUWc" name="4、时间管理的四象限工作法">
     <mxGraphModel dx="1550" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -158,6 +158,9 @@
         <mxCell id="1" parent="0" />
         <mxCell id="kLh6XSo0rWBVKIQqKSxa-1" value="第一步：确认角色（少于7个）&lt;br&gt;第二步：选择目标&lt;br&gt;第三步：订立周计划（A-time工作法）&lt;br&gt;第四步：逐日调整&lt;br&gt;第五步：评估&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="440" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="kLh6XSo0rWBVKIQqKSxa-2" value="第一步：确认角色&lt;br&gt;&lt;br&gt;您的工作角色：经理、工程师&lt;br&gt;&lt;br&gt;您的生活角色：父/母、夫/妻、儿/女、男友/女友" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="440" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
