@@ -1,42 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T09:02:03.784Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="NjyWt5VGExcVxbK5nV55" version="20.5.3" type="github" pages="6">
-  <diagram id="PLBBstNr-BhwuJIR3sM_" name="3、时间管理的三个平衡">
-    <mxGraphModel dx="1550" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="2_6E8iUzng6J1LBpkoHg-1" value="&lt;div&gt;&lt;span style=&quot;font-size: 28pt; font-family: 华文细黑; font-weight: bold;&quot;&gt;注重工作与生活的平衡&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 28pt; font-family: 华文细黑; font-weight: bold;&quot;&gt;注重效率与效益的平衡&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 28pt; font-family: 华文细黑; font-weight: bold;&quot;&gt;注重紧急与重要的平衡&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="160" y="80" width="530" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="2_6E8iUzng6J1LBpkoHg-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="240" y="560" width="440" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="2_6E8iUzng6J1LBpkoHg-3" value="" style="triangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;direction=west;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="430" y="570" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="2_6E8iUzng6J1LBpkoHg-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="250" y="520" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2_6E8iUzng6J1LBpkoHg-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="630" y="515" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="2_6E8iUzng6J1LBpkoHg-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="264.5" y="630" as="sourcePoint" />
-            <mxPoint x="264.5" y="590" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2_6E8iUzng6J1LBpkoHg-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="649.5" y="624.5" as="sourcePoint" />
-            <mxPoint x="649.5" y="584.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2_6E8iUzng6J1LBpkoHg-8" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; direction: ltr; unicode-bidi: embed; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;font-size: 28pt; font-family: 华文细黑; font-weight: bold;&quot;&gt;紧急的事往往不重要&lt;/span&gt;&lt;span style=&quot;font-size: 28pt; font-family: 华文细黑; font-weight: bold;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;font-size: 28pt; font-family: 华文细黑; font-weight: bold;&quot;&gt;重要的事一定不能急&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="70" y="650" width="740" height="70" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="app.diagrams.net" modified="2022-11-18T09:08:52.231Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="BLshGeBH6D3SyzPo_p8g" version="20.5.3" type="github" pages="5">
   <diagram id="zufRls0miDgLk5DCoUWc" name="4、时间管理的四象限工作法">
     <mxGraphModel dx="1550" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
