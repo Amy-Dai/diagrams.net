@@ -1,56 +1,104 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T07:41:42.794Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="HzT9-D7hFgB2GSwEkOWf" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T07:47:01.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="734rPbJThEuCPxe8-K2B" version="20.5.3" type="github">
   <diagram id="zufRls0miDgLk5DCoUWc" name="4、时间管理的四象限工作法">
     <mxGraphModel dx="1550" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qnZKxBHlYLttaDCwG3hS-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="220" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qnZKxBHlYLttaDCwG3hS-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="240" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qnZKxBHlYLttaDCwG3hS-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="220" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qnZKxBHlYLttaDCwG3hS-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qnZKxBHlYLttaDCwG3hS-5" value="紧急" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="360" width="60" height="30" as="geometry" />
+          <mxGeometry x="240" y="160" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qnZKxBHlYLttaDCwG3hS-6" value="不紧急" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="360" width="60" height="30" as="geometry" />
+          <mxGeometry x="370" y="160" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qnZKxBHlYLttaDCwG3hS-7" value="重要" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="255" width="60" height="30" as="geometry" />
+          <mxGeometry x="160" y="55" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qnZKxBHlYLttaDCwG3hS-8" value="不重要" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="315" width="60" height="30" as="geometry" />
+          <mxGeometry x="160" y="115" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qnZKxBHlYLttaDCwG3hS-9" value="I" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="240" y="240" width="40" height="30" as="geometry" />
+          <mxGeometry x="220" y="40" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qnZKxBHlYLttaDCwG3hS-10" value="II" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="240" width="40" height="30" as="geometry" />
+          <mxGeometry x="340" y="40" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qnZKxBHlYLttaDCwG3hS-11" value="III" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="240" y="330" width="40" height="30" as="geometry" />
+          <mxGeometry x="220" y="130" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qnZKxBHlYLttaDCwG3hS-12" value="IV" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="330" width="40" height="30" as="geometry" />
+          <mxGeometry x="340" y="130" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qnZKxBHlYLttaDCwG3hS-13" value="DO IT NOW&lt;br&gt;立即做&lt;br&gt;必要的" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="280" y="240" width="80" height="60" as="geometry" />
+          <mxGeometry x="260" y="40" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qnZKxBHlYLttaDCwG3hS-14" value="DO IT LATER&lt;br&gt;稍后着重做&lt;br&gt;领导的" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="400" y="240" width="80" height="60" as="geometry" />
+          <mxGeometry x="380" y="40" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qnZKxBHlYLttaDCwG3hS-15" value="DELEGATE&lt;br&gt;授权&lt;br&gt;虚假的" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#0000FF;" vertex="1" parent="1">
-          <mxGeometry x="280" y="300" width="80" height="60" as="geometry" />
+          <mxGeometry x="260" y="100" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qnZKxBHlYLttaDCwG3hS-16" value="DON&#39;T DO IT&lt;br&gt;不做&lt;br&gt;浪费的" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#0000FF;" vertex="1" parent="1">
-          <mxGeometry x="400" y="300" width="80" height="60" as="geometry" />
+          <mxGeometry x="380" y="100" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qnZKxBHlYLttaDCwG3hS-18" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#0000FF;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="420" as="sourcePoint" />
+            <mxPoint x="120" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qnZKxBHlYLttaDCwG3hS-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#0000FF;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="600" as="sourcePoint" />
+            <mxPoint x="360" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qnZKxBHlYLttaDCwG3hS-20" value="重要" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qnZKxBHlYLttaDCwG3hS-21" value="不&lt;br&gt;重要" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="320" y="560" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qnZKxBHlYLttaDCwG3hS-22" value="紧急" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="380" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qnZKxBHlYLttaDCwG3hS-23" value="不紧急" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="550" y="380" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qnZKxBHlYLttaDCwG3hS-24" value="如何应对突发事件？" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="320" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qnZKxBHlYLttaDCwG3hS-25" value="如何避免拖延？" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qnZKxBHlYLttaDCwG3hS-26" value="如何控制干扰？" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="480" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qnZKxBHlYLttaDCwG3hS-27" value="增强自制力&lt;br&gt;提高效率" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="480" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qnZKxBHlYLttaDCwG3hS-28" value="I" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qnZKxBHlYLttaDCwG3hS-30" value="II" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qnZKxBHlYLttaDCwG3hS-31" value="III" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qnZKxBHlYLttaDCwG3hS-32" value="IV" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="570" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
