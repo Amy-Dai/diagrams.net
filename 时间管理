@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T08:58:21.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="eniH31JMC-GBnb5MR0N5" version="20.5.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-18T08:59:05.976Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="RPZ0WvvKPVMSDuze68e5" version="20.5.3" type="github" pages="6">
   <diagram id="PLBBstNr-BhwuJIR3sM_" name="3、时间管理的三个平衡">
     <mxGraphModel dx="1550" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2_6E8iUzng6J1LBpkoHg-1" value="&lt;div&gt;&lt;span style=&quot;font-size: 28pt; font-family: 华文细黑; font-weight: bold;&quot;&gt;注重工作与生活的平衡&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 28pt; font-family: 华文细黑; font-weight: bold;&quot;&gt;注重效率与效益的平衡&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 28pt; font-family: 华文细黑; font-weight: bold;&quot;&gt;注重紧急与重要的平衡&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="530" height="360" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
