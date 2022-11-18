@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T09:08:25.459Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.5.3" etag="9Z3smaEJHpsJtlpDRFf5" type="github"><diagram id="BiRlukjtE4J95gy36YKX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-18T09:08:45.431Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Ui2SQmezMydhP4vL7IeB" version="20.5.3" type="github">
+  <diagram id="BiRlukjtE4J95gy36YKX" name="3、时间管理的三个平衡">
+    <mxGraphModel dx="1550" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TttAzKsZVidKRtwnsPEB-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="730" width="520" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="TttAzKsZVidKRtwnsPEB-2" value="&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px; font-family: 华文细黑; font-weight: bold;&quot;&gt;注重工作与生活的平衡&lt;/span&gt;&lt;/div&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px; font-family: 华文细黑; font-weight: bold;&quot;&gt;注重效率与效益的平衡&lt;/span&gt;&lt;/div&gt;&lt;br style=&quot;font-size: 20px;&quot;&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px; font-family: 华文细黑; font-weight: bold;&quot;&gt;注重紧急与重要的平衡&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="310" width="520" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="TttAzKsZVidKRtwnsPEB-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="810" width="440" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TttAzKsZVidKRtwnsPEB-4" value="" style="triangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;direction=west;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="400" y="820" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TttAzKsZVidKRtwnsPEB-5" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="770" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TttAzKsZVidKRtwnsPEB-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="600" y="765" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TttAzKsZVidKRtwnsPEB-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="234.5" y="880" as="sourcePoint" />
+            <mxPoint x="234.5" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TttAzKsZVidKRtwnsPEB-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="619.5" y="874.5" as="sourcePoint" />
+            <mxPoint x="619.5" y="834.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TttAzKsZVidKRtwnsPEB-9" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; direction: ltr; unicode-bidi: embed; vertical-align: baseline; font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px; font-family: 华文细黑; font-weight: bold;&quot;&gt;紧急的事往往不重要&lt;/span&gt;&lt;span style=&quot;font-size: 20px; font-family: 华文细黑; font-weight: bold;&quot;&gt;,&lt;/span&gt;&lt;span style=&quot;font-size: 20px; font-family: 华文细黑; font-weight: bold;&quot;&gt;重要的事一定不能急&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="170" y="900" width="500" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TttAzKsZVidKRtwnsPEB-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="480" width="520" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="TttAzKsZVidKRtwnsPEB-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="560" width="440" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TttAzKsZVidKRtwnsPEB-12" value="" style="triangle;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;direction=west;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="400" y="570" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TttAzKsZVidKRtwnsPEB-13" value="时间" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="220" y="520" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TttAzKsZVidKRtwnsPEB-14" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="596.25" y="520" width="32.5" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TttAzKsZVidKRtwnsPEB-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="234.5" y="630" as="sourcePoint" />
+            <mxPoint x="234.5" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TttAzKsZVidKRtwnsPEB-16" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=60;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="612" y="625" as="sourcePoint" />
+            <mxPoint x="612" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TttAzKsZVidKRtwnsPEB-17" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; direction: ltr; unicode-bidi: embed; vertical-align: baseline; font-size: 20px;&quot;&gt;&lt;font face=&quot;华文细黑&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;效率&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; direction: ltr; unicode-bidi: embed; vertical-align: baseline; font-size: 20px;&quot;&gt;&lt;font face=&quot;华文细黑&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;你敲了多少门&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="650" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TttAzKsZVidKRtwnsPEB-18" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; direction: ltr; unicode-bidi: embed; vertical-align: baseline; font-size: 20px;&quot;&gt;&lt;font face=&quot;华文细黑&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;效益&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; direction: ltr; unicode-bidi: embed; vertical-align: baseline; font-size: 20px;&quot;&gt;&lt;font face=&quot;华文细黑&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;门开了的情况&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=20;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="547.5" y="650" width="130" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
