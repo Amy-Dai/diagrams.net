@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T09:32:56.549Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="TnHLxbBo5yootjQaHGSA" version="20.5.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-11-18T09:33:44.439Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Lyvx4CJHNZeLuYcPRCK0" version="20.5.3" type="github" pages="6">
   <diagram id="r1pX2_SnRBZ659vyoJd7" name="高绩效员工九大特征">
     <mxGraphModel dx="1550" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,6 +9,9 @@
         </mxCell>
         <mxCell id="0YSb3EidAop-alBfu0ZN-2" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; direction: ltr; unicode-bidi: embed; vertical-align: baseline;&quot;&gt;&lt;span style=&quot;font-size: 20pt; font-family: 华文细黑; font-weight: bold;&quot;&gt;美国管理学家对贝尔实验室长达&lt;/span&gt;&lt;span style=&quot;font-size: 20pt; font-family: &amp;quot;FrutigerNext LT Regular&amp;quot;; font-weight: bold;&quot;&gt;10&lt;/span&gt;&lt;span style=&quot;font-size: 20pt; font-family: 华文细黑; font-weight: bold;&quot;&gt;年的研究成果&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="34" y="520" width="760" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0YSb3EidAop-alBfu0ZN-3" value="高效员工的定义：高效率、高质量的完成目标" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="120" y="40" width="590" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
