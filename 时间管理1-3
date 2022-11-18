@@ -1,4 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T09:25:07.462Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Y1HKfJkkBO9RZmf171lT" version="20.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-18T09:28:09.953Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="vL-zV2EqfdpjHGCNGFDq" version="20.5.3" type="github" pages="5">
+  <diagram id="ygkFfxjp3tKDh6yIvluY" name="浪费时间的因素与对策">
+    <mxGraphModel dx="1550" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lICzxCaMGGkzloLpfsWW-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="200" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lICzxCaMGGkzloLpfsWW-2" value="&lt;p&gt;&lt;span style=&quot;font-family: 宋体; font-weight: bold;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;工作没有计划&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-family: 宋体; font-weight: bold; background-color: initial;&quot;&gt;事先准备不足&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-family: 宋体; font-weight: bold; background-color: initial;&quot;&gt;等待客户&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-family: 宋体; font-weight: bold; background-color: initial;&quot;&gt;工作技能不足&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-family: 宋体; font-weight: bold; background-color: initial;&quot;&gt;拖延&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-family: 宋体; font-weight: bold; background-color: initial;&quot;&gt;不善于求助&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="110" y="200" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="lICzxCaMGGkzloLpfsWW-3" value="浪费时间的因素" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="90" y="160" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lICzxCaMGGkzloLpfsWW-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="200" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="lICzxCaMGGkzloLpfsWW-5" value="&lt;p&gt;&lt;/p&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-family: 宋体; font-weight: bold;&quot;&gt;明确工作目标&lt;/span&gt;&lt;/p&gt;&lt;span style=&quot;font-family: 宋体; font-weight: bold; background-color: initial;&quot;&gt;充分准备&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-family: 宋体; font-weight: bold; background-color: initial;&quot;&gt;&lt;br&gt;预约与经验&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-family: 宋体; font-weight: bold; background-color: initial;&quot;&gt;&lt;br&gt;加强学习&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-family: 宋体; font-weight: bold; background-color: initial;&quot;&gt;&lt;br&gt;养成良好习惯&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-family: 宋体; font-weight: bold; background-color: initial;&quot;&gt;&lt;br&gt;加强沟通反馈&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="390" y="200" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="lICzxCaMGGkzloLpfsWW-6" value="对策" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="370" y="160" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="aHRXB_YA44Krrm-CEwtk" name="时间管理的六步七诀">
     <mxGraphModel dx="1550" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
