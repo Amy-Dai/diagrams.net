@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T07:47:01.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="734rPbJThEuCPxe8-K2B" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T07:48:22.485Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="WBacI8DOFi2mw7XUrobX" version="20.5.3" type="github">
   <diagram id="zufRls0miDgLk5DCoUWc" name="4、时间管理的四象限工作法">
     <mxGraphModel dx="1550" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,8 +76,8 @@
         <mxCell id="qnZKxBHlYLttaDCwG3hS-23" value="不紧急" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="550" y="380" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qnZKxBHlYLttaDCwG3hS-24" value="如何应对突发事件？" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="180" y="320" width="140" height="30" as="geometry" />
+        <mxCell id="qnZKxBHlYLttaDCwG3hS-24" value="如何应对突发事件？&lt;br&gt;&lt;ol&gt;&lt;li&gt;计划中预留时间&lt;/li&gt;&lt;li&gt;预防与提前准备&lt;/li&gt;&lt;li&gt;设计处理流程&lt;/li&gt;&lt;li&gt;亲自去做&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="280" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="qnZKxBHlYLttaDCwG3hS-25" value="如何避免拖延？" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="400" y="320" width="140" height="30" as="geometry" />
